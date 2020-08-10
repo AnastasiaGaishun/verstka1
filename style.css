@@ -1,0 +1,473 @@
+html,body {
+	background: #E5E5E5;
+}
+
+.wrapper {
+	position: relative;
+	width: 1440px;
+	height: 10000px;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+
+.header {
+	position: relative;
+}
+
+.logo__blue {
+	position: absolute;
+	width: 31.42px;
+	height: 28.8px;
+	left: 65px;
+	top: 21px;
+	background: #56A8DD;
+	border-radius: 10px;
+}
+
+.logo__s {
+	position: absolute;
+	width: 17.45px;
+	height: 20.07px;
+	left: 71.98px;
+	top: 25.36px;
+}
+
+.logo__and {
+	position: absolute;
+	width: 9.6px;
+	height: 7.85px;
+	left: 99.91px;
+	top: 27.35px;
+}
+
+.logo__green {
+	position: absolute;
+	width: 32.29px;
+	height: 28.8px;
+	left: 111.25px;
+	top: 21px;
+	background: #76B82A;
+	border-radius: 10px;
+}
+
+.logo__i {
+	position: absolute;
+	width: 11.35px;
+	height: 19.2px;
+	left: 121.73px;
+	top: 26.24px;
+}
+
+.logo__fitness {
+	position: absolute;
+	width: 104.73px;
+	height: 12.22px;
+	left: 152.27px;
+	top: 21.62px;
+}
+
+.logo__sport {
+	position: absolute;
+	width: 103.85px;
+	height: 5.24px;
+	left: 152.27px;
+	top: 34.82px;
+}
+
+.menu {
+	position: absolute;
+	width: 581px;
+	height: 15px;
+	left: 293px;
+	top: 15px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 17px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #3C3C3B;
+	display: flex;
+	justify-content: space-between;
+}
+
+.phone {
+	position: absolute;
+	left: 1015.48px;
+	top: 26px;
+}
+
+.number {
+	position: absolute;
+	width: 147px;
+	height: 19px;
+	left: 1038px;
+	top: 25px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 19px;
+	letter-spacing: 0.05em;
+	color: #000000;
+	display: flex;
+}
+
+.or {
+	position: absolute;
+	width: 34px;
+	height: 20px;
+	left: 1218px;
+	top: 18px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	color: #ABA4A4;
+}
+
+.telegram-background {
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	left: 1271px;
+	top: 18px;
+	background: #1E96C8;
+	border-radius: 29px;
+}
+
+.telegram {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+}
+
+.viber-background {
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	left: 1308.7px;
+	top: 18px;
+	background: #7B519C;
+	border-radius: 29px;
+}
+
+.viber {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+}
+
+.whatsapp-background {
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	left: 1346.4px;
+	top: 18px;
+	background: #25D366;
+	border-radius: 29px;
+}
+
+.whatsapp {
+	position: absolute;
+	top: 6px;
+	left: 6px;
+}
+
+.content__main {
+	position: absolute;
+	width: 1310px;
+	height: 440px;
+	left: 65px;
+	top: 70px;
+	background: #F5F5F5;
+}
+
+.strips2 {
+	position: absolute;
+	width: 159.46px;
+	height: 151.04px;
+	left: 5.8px;
+	top: 343px;
+	/*transform: rotate(45deg);*/
+}
+
+.circle {
+	position: absolute;
+	width: 33px;
+	height: 33px;
+	left: 763px;
+	top: 113px;
+}
+
+.content__title {
+	position: absolute;
+	width: 520px;
+	height: 225px;
+	left: 231px;
+	top: 72px;
+	font-family: Roboto Condensed;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 70px;
+	line-height: 74px;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.content__description {
+	position: absolute;
+	width: 423px;
+	height: 79px;
+	left: 231px;
+	top: 381px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	color: #3C3C3B;
+}
+
+.content__item {
+	position: absolute;
+	width: 336px;
+	height: 26px;
+	left: 228px;
+	top: 552px;
+	font-family: Roboto Condensed;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 25px;
+	color: #000000;
+}
+
+.content__form {
+	position: absolute;
+	width: 564px;
+	height: 62.87px;
+	left: 228px;
+	top: 606px;
+	background: #FFFFFF;
+}
+
+.content__input{
+	position: absolute;
+	width: 128.27px;
+	height: 27px;
+	left: 252.43px;
+	top: 625px;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 29px;
+	color: #8F8F8F;
+}
+
+.content__prebutton {
+	position: absolute;
+	width: 602px;
+	height: 802px;
+	left: 646px;
+	top: 77px;
+	background: url(3.png);
+}
+
+.content__button {
+	position: absolute;
+	width: 228px;
+	height: 62.87px;
+	left: 564px;
+	top: 606px;
+	background: #000000;
+}
+
+.content__text {
+	position: absolute;
+	width: 102px;
+	height: 22px;
+	left: 606px;
+	top: 626px;
+	font-family: Roboto Condensed;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.arrow {
+	position: absolute;
+	width: 38px;
+	height: 0px;
+	left: 721px;
+	top: 638px;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+}
+
+.blue-background {
+	position: absolute;
+	width: 244px;
+	height: 809px;
+	left: 900px;
+	top: 70px;
+	background: #56A8DD;
+}
+.green-background {
+	position: absolute;
+	width: 231px;
+	height: 809px;
+	left: 1144px;
+	top: 70px;
+}
+
+.strips1 {
+	position: absolute;
+	width: 159.46px;
+	height: 151.04px;
+	left: 1278.8px;
+	top: 119px;
+	/*transform: rotate(45deg);*/
+}
+
+.woman {
+	position: absolute;
+	width: 602px;
+	height: 802px;
+	left: 646px;
+	top: 77px;
+	background: url(assets/woman.png);
+}
+
+.ems {
+	position: absolute;
+	width: 609px;
+	height: 362px;
+	left: 820px;
+	top: 462px;
+	font-family: Roboto Condensed;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 300px;
+	line-height: 316px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.stretch-image {
+	position: absolute;
+	width: 84px;
+	height: 84px;
+	left: 228px;
+	top: 718px;
+}
+
+.stretch {
+	position: absolute;
+	width: 90px;
+	height: 21px;
+	left: 327px;
+	top: 750px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	text-decoration-line: underline;
+	color: #3C3C3B;
+	text-shadow: 0px 10px 10px rgba(118, 184, 42, 0.3);
+}
+
+.lpg-image {
+	position: absolute;
+	width: 84px;
+	height: 84px;
+	left: 438px;
+	top: 718px;
+}
+
+.lpg {
+	position: absolute;
+	width: 119px;
+	height: 21px;
+	left: 537px;
+	top: 750px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	text-decoration-line: underline;
+	color: #3C3C3B;
+}
+
+.wrapping-image {
+	position: absolute;
+	width: 84px;
+	height: 84px;
+	left: 688px;
+	top: 718px;
+}
+
+.wrapping {
+	position: absolute;
+	width: 103px;
+	height: 21px;
+	left: 787px;
+	top: 750px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	text-decoration-line: underline;
+	color: #3C3C3B;
+}
+
+.circle2 {
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	left: 125px;
+	top: 822px;
+}
+
+.circle3 {
+	position: absolute;
+	width: 114px;
+	height: 114px;
+	left: 1245px;
+	top: 756px;
+}
+
+.circle4 {
+	position: absolute;
+	width: 114px;
+	height: 114px;
+	left: 1257px;
+	top: 746px;
+}
+
+.circle-text {
+	position: absolute;
+	width: 111px;
+	height: 42px;
+	left: 1263px;
+	top: 786px;
+	font-family: Roboto Condensed;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 105.47%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
